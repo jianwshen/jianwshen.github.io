@@ -144,13 +144,62 @@
 
   <p>        OOB estimate of  error rate: 0.05%  </p>
   <p>Confusion matrix:  </p>
-    <p>   A    B    C    D    E  class.error  </p>
-  <p>A 5579    1    0    0    0 0.0001792115  </p>
-  <p>B    2 3795    0    0    0 0.0005267316  </p>
-  <p>C    0    2 3419    1    0 0.0008766803  </p>
-  <p>D    0    0    2 3213    1 0.0009328358  </p>
-  <p>E    0    0    0    1 3606 0.0002772387  </p>
-  
+<table>
+<tr>
+	<td></td>
+	<td>A</td>
+	<td>B</td>
+	<td>C</td>
+	<td>D</td>
+	<td>E</td>
+	<td>class.error</td>
+</tr>
+<tr>
+	<td>A</td>
+	<td>5579</td>
+	<td>1</td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td>0.0001792115</td>
+</tr>
+<tr>
+	<td>B</td>
+	<td>2</td>
+	<td>3795</td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td>0.0005267316</td>
+</tr>
+<tr>
+	<td>C</td>
+	<td>0</td>
+	<td>2</td>
+	<td>3419</td>
+	<td>1</td>
+	<td>0</td>
+	<td>0.0008766803</td>
+</tr>
+<tr>
+	<td>D</td>
+	<td>0</td>
+	<td>0</td>
+	<td>2</td>
+	<td>3213</td>
+	<td>1</td>
+	<td>0.0009328358</td>
+</tr>
+<tr>
+	<td>E</td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td>1</td>
+	<td>3606</td>
+	<td>0.0002772387</td>
+</tr>
+</table>  
   </p>
 </div>
 
@@ -170,11 +219,34 @@
   <p>Resampling results across tuning parameters:  </p>
 <table>
 <tr>
-<td>cp</td>
-<td>cp</td>Accuracy  Kappa   Accuracy SD  Kappa SD  </p>
-<p>  0.0402  0.516     0.3749  0.0833       0.127   </p>
-<p>  0.0457  0.431     0.2337  0.0845       0.140   </p>
-<p>  0.1152  0.333     0.0743  0.0413       0.062   </p>
+	<td>cp</td>
+	<td>Accuracy</td>
+	<td>Kappa</td>
+	<td>Accuracy SD</td>
+	<td>Kappa SD</td>
+</tr>
+<tr>
+	<td>0.0402</td>
+	<td>0.516</td>
+	<td>0.3749</td>
+	<td>0.0833</td>
+	<td>0.127</td>
+</tr>
+<tr>
+	<td>0.0457</td>
+	<td>0.431</td>
+	<td>0.2337</td>
+	<td>0.0845</td>
+	<td>0.140</td>
+</tr>
+<tr>
+	<td>0.1152</td>
+	<td>0.333</td>
+	<td>0.0743</td>
+	<td>0.0413</td>
+	<td>0.062</td>
+</tr>
+</table>
 
 <br><p>Accuracy was used to select the optimal model using the largest value.    </p>
 <br><p>The final value used for the model was cp = 0.04023643.   </p>
