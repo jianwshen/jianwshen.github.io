@@ -8,7 +8,7 @@
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-    <title>Jianwshen.github.io</title>
+    <title>Practical Machine Learning</title>
   </head>
 
   <body>
@@ -16,9 +16,9 @@
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
         <header class="inner">
-          <a id="forkme_banner" href="https://github.com/jianwshen">View on GitHub</a>
+          <a id="forkme_banner" href="https://github.com/jianwshen/PracticalMachineLearning">View Projct Report</a>
 
-          <h1 id="project_title">Jianwshen.github.io</h1>
+          <h1 id="project_title">Practical Machine Learning</h1>
           <h2 id="project_tagline"></h2>
 
         </header>
@@ -32,9 +32,19 @@
 
 <p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can <a href="rpart.pdf">tree structure</a>check out the new branch:</p>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
+<pre><code>
+>setwd("/Users/jshen/MachineLearning/project")
+
+>library(lattice)
+>library(ggplot2)
+>library(caret)
+>library(ElemStatLearn)
+>library(randomForest) 
+>library(rpart)
+>trainData = read.csv("pml-training.csv")
+>testData = read.csv("pml-testing.csv")
+>set.seed(23)
+
 </code></pre>
 
 <p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
