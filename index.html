@@ -31,11 +31,12 @@
 <a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to Practical Machine Learning Project Report Page.</h3>
 <h4>Overview</h4>
 <p>The goal of this project is to predict the manner in which people did exercise. This is the “classe” variable in the training set. All other variables can be used to predict “classe”.</p>
+<br>
 <p>There are four parts in this project report:  </p>
-<p>1. Model Build</p>   
-<p>2. Cross Validation </p> 
-<p>3. Expected Sample Error </p> 
-<p>4. Results for Test Cases  </p>
+<br><p>1. Model Build  </p>   
+<br><p>2. Cross Validation  </p> 
+<br><p>3. Expected Sample Error  </p> 
+<br><p>4. Results for Test Cases  </p>
 </p>
 
 <h4>Model Build</h4>
@@ -135,20 +136,20 @@
 <h5>Random Forest Model</h5>
 <div>
   <p>
-  Call:</p>
-  <p>randomForest(formula = classe ~ ., data = training, importance = T) </p>
-    <p>             Type of random forest: classification</p>
-      <p>                 Number of trees: 500</p>
-  <p>No. of variables tried at each split: 7</p>
+  Call:  </p>
+  <p>randomForest(formula = classe ~ ., data = training, importance = T)   </p>
+    <p>             Type of random forest: classification  </p>
+      <p>                 Number of trees: 500  </p>
+  <p>No. of variables tried at each split: 7  </p>
 
-  <p>        OOB estimate of  error rate: 0.05%</p>
-  <p>Confusion matrix:</p>
-    <p>   A    B    C    D    E  class.error</p>
-  <p>A 5579    1    0    0    0 0.0001792115</p>
-  <p>B    2 3795    0    0    0 0.0005267316</p>
-  <p>C    0    2 3419    1    0 0.0008766803</p>
-  <p>D    0    0    2 3213    1 0.0009328358</p>
-  <p>E    0    0    0    1 3606 0.0002772387</p>
+  <p>        OOB estimate of  error rate: 0.05%  </p>
+<br>  <p>Confusion matrix:  </p>
+<br>    <p>   A    B    C    D    E  class.error  </p>
+<br>  <p>A 5579    1    0    0    0 0.0001792115  </p>
+<br>  <p>B    2 3795    0    0    0 0.0005267316  </p>
+<br>  <p>C    0    2 3419    1    0 0.0008766803  </p>
+<br>  <p>D    0    0    2 3213    1 0.0009328358  </p>
+<br>  <p>E    0    0    0    1 3606 0.0002772387  </p>
   
   </p>
 </div>
@@ -157,24 +158,24 @@
 <div>
   <p>
   
-  19622 samples</p>
+  19622 samples  </p>
   <p>   55 predictor</p>
-    <p>  5 classes: 'A', 'B', 'C', 'D', 'E' </p>
+    <p>  5 classes: 'A', 'B', 'C', 'D', 'E'   </p>
 
-  <p>No pre-processing</p>
-  <p>Resampling: Bootstrapped (25 reps) </p>
+  <p>No pre-processing  </p>
+  <p>Resampling: Bootstrapped (25 reps)  </p>
 
-  <p>Summary of sample sizes: 19622, 19622, 19622, 19622, 19622, 19622, ... </p>
+  <p>Summary of sample sizes: 19622, 19622, 19622, 19622, 19622, 19622, ...   </p>
 
-  <p>Resampling results across tuning parameters:</p>
+  <p>Resampling results across tuning parameters:  </p>
 <p>
-<p>  cp      Accuracy  Kappa   Accuracy SD  Kappa SD</p>
-<p>  0.0402  0.516     0.3749  0.0833       0.127   </p>
-<p>  0.0457  0.431     0.2337  0.0845       0.140   </p>
-<p>  0.1152  0.333     0.0743  0.0413       0.062   </p>
+<br><p>  cp      Accuracy  Kappa   Accuracy SD  Kappa SD  </p>
+<br><p>  0.0402  0.516     0.3749  0.0833       0.127   </p>
+<br><p>  0.0457  0.431     0.2337  0.0845       0.140   </p>
+<br><p>  0.1152  0.333     0.0743  0.0413       0.062   </p>
 
-<p>Accuracy was used to select the optimal model using the largest value.</p>
-<p>The final value used for the model was cp = 0.04023643. </p>
+<br><p>Accuracy was used to select the optimal model using the largest value.    </p>
+<br><p>The final value used for the model was cp = 0.04023643.   </p>
 
   </p>
 </div>
@@ -183,14 +184,14 @@
 <p>
  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20  </p>
 <p>
- B  A  B  A  A  E  D  B  A  A  B  C  B  A  E  E  A  B  B  B </p>
+ B  A  B  A  A  E  D  B  A  A  B  C  B  A  E  E  A  B  B  B  </p>
 Levels: A B C D E
   
   
 </p>
 
 <h5>RPART Model</h5>
-<p>[1] B A C C A C C C A A C C B A C C C B B B</p>
+<p>[1] B A C C A C C C A A C C B A C C C B B B   </p>
 Levels: A B C D E
 
   </body>
